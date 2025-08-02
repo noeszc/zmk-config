@@ -52,3 +52,15 @@
 #define RH0 33  // right thumb keys
 #define RH1 34
 #define RH2 35
+
+#define _LTX &none
+#define _LMX &none
+#define _LBX &none
+#define _LHX &none
+
+#define _MBX &none
+
+#define _RTX &none
+#define _RMX &none
+#define _RBX &none
+#define _RHX &none
