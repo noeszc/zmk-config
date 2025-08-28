@@ -21,6 +21,7 @@
 #define CUT LG(X)
 #define COPY LG(C)
 #define PASTE LG(V)
+#define UNDO LG(Z)
 #define COMPOSE K_CMENU
 
 / {
@@ -62,7 +63,7 @@
 //                      ╰───────┴───────┴────┴───┴───┴───┴───┴───╯            
   _LTX   &kp LG(Q)    &kp LC(W)   &kp LS(LC(TAB))   &kp LC(TAB)   &kp LC(T)                             &kp LBKT    &kp RBKT     &kp LBRC   &kp RBRC   &kp PRCNT   _RTX
   _LMX   &kp LGUI     &kp LALT    &kp LCTRL         &kp LSHFT     &trans                                &kp HASH    &kp EQUAL    &kp LPAR   &kp RPAR   &kp GRAVE   _RMX
-  _LBX   &kp K_UNDO   &kp CUT     &kp COPY          &kp PASTE     &trans               _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
+  _LBX   &kp UNDO   &kp CUT     &kp COPY          &kp PASTE     &trans               _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
                                      &kp COMPOSE   &trans      &trans   &kp UNDERSCORE   &kp MINUS   &kp PLUS
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
